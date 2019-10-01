@@ -6,13 +6,13 @@ CREATE TABLE public.data_points
 (
     latitude numeric(9,6),
     longitude numeric(9,6),
-    rua character varying(50) COLLATE pg_catalog."default",
+    rua character varying(100) COLLATE pg_catalog."default",
     bairro character varying(50) COLLATE pg_catalog."default",
     cidade character varying(50) COLLATE pg_catalog."default",
-    estado character(2) COLLATE pg_catalog."default",
-    pais character varying(50) COLLATE pg_catalog."default",
-    cep character varying(10) COLLATE pg_catalog."default",
-    numero character varying(10) COLLATE pg_catalog."default"
+    estado character varying(50) COLLATE pg_catalog."default",
+    pais character varying(20) COLLATE pg_catalog."default",
+    numero character varying(50) COLLATE pg_catalog."default",
+    cep character varying(15) COLLATE pg_catalog."default"
 )
 WITH (
     OIDS = FALSE
