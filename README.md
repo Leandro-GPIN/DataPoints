@@ -8,4 +8,4 @@
   - Install geopy
   - Install psycopg2
 - Database: Postgres 11
-  - execute script to create databse: 
+  - Execute script to create databse: ddl_database.sql
