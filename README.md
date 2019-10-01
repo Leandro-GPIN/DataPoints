@@ -4,5 +4,8 @@
 
 ## Requeriments:
 
-- Install geopy
-- Install psycopg2
+- Python 3.6
+  - Install geopy
+  - Install psycopg2
+- Database: Postgres 11
+  - execute script to create databse: 
