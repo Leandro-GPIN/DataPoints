@@ -10,9 +10,9 @@ CREATE TABLE public.data_points
     bairro character varying(50) COLLATE pg_catalog."default",
     cidade character varying(50) COLLATE pg_catalog."default",
     estado character varying(50) COLLATE pg_catalog."default",
-    pais character varying(20) COLLATE pg_catalog."default",
+    pais character varying(50) COLLATE pg_catalog."default",
     numero character varying(50) COLLATE pg_catalog."default",
-    cep character varying(15) COLLATE pg_catalog."default"
+    cep character varying(50) COLLATE pg_catalog."default"
 )
 WITH (
     OIDS = FALSE
